@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html leng="en">
   <head> 
     <title>The picture</title>
   </head>
