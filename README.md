@@ -1,14 +1,6 @@
 <DOCTYPE! html>
-<head>
-  <title>The first</title>
-  </head>
+<html>
   <body>
-  <h1>jfihfguh</h1>
-  <ul>
-    <li>jfiehfehfu</li>
-  </ul>
-  <ol>
-    <li>fjeijfiefi</li>
-  </ol>
+    <img src="cat.jpg" alt="cat">
   </body>
   </html>
