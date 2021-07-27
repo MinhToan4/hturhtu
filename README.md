@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html leng="en">
   <head>
-    <title>Table</title>
+    <title>Table + From</title>
   </head>
   <body>
     <table>
       <thead>
         <tr>
           <th>Toan</th>
-          <th>Can nang</th>
           <th>Tuoi</th>
+          <th>Lop</th>
         </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Dep trai</td>
-          <td>64 kg</td>
-          <td>17</td>
-        </tr>
-        <tr>
-          <td>Dang cap</td>
-          <td>Tang 2kg</td>
-          <td>16 ruoi</td>
+        <tbody>
+          <tr>
+            <td>Dep</td>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Trai</td>
+            <td>7</td>
+            <td>1</td>
+          </tr>
       </tbody>
     </table>
+    <form>
+      <input type="text" placeholder="Full Name" name="name">
+      <input type="submit">
+    </form>
   </body>
-  </html>
+</html>
+       
