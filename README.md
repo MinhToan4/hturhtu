@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css">
   <body>
-    <h1 style="color: blue; text-align: center;">This center</h1>
+    <h1>This center</h1>
   </body>
   </html>
