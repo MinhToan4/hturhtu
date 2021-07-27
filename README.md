@@ -1,33 +1,25 @@
 <!DOCTYPE html>
 <html leng="en">
-  <head>
-    <title>Table + From</title>
-  </head>
   <body>
-    <table>
-      <thead>
-        <tr>
-          <th>Toan</th>
-          <th>Tuoi</th>
-          <th>Lop</th>
-        </tr>
-        <tbody>
-          <tr>
-            <td>Dep</td>
-            <td>1</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Trai</td>
-            <td>7</td>
-            <td>1</td>
-          </tr>
-      </tbody>
-    </table>
-    <form>
-      <input type="text" placeholder="Full Name" name="name">
-      <input type="submit">
-    </form>
-  </body>
-</html>
-       
+    <h1>From</h1>
+    <from>
+      <div>
+        <input name="name" type="text" placeholder="Full Name">
+        <input name="password" type="password" placeholder="Password">
+      </div>
+      <div>
+        What favourite color?
+        <input name="color" type="radio" value="red"> Red
+        <input name="color" type="radio" value="blue"> Blue
+        <input name="color" type="radio" value="green"> Green
+      </div>
+      <div>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+          <option value="Vietnam">
+            <option value="America">
+              <option value="Japan">
+                <option value="China">
+          </div>
+        </body>
+      </html>
